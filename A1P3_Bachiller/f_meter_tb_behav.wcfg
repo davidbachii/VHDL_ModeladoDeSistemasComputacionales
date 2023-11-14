@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="f_meter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="f_meter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="8000000000001fs"></ZoomEndTime>
+      <Cursor1Time time="8000000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="125"></NameColumnWidth>
+      <ValueColumnWidth column_width="70"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/f_meter_tb/CLK_i" type="logic">
+      <obj_property name="ElementShortName">CLK_i</obj_property>
+      <obj_property name="ObjectShortName">CLK_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/RST_i" type="logic">
+      <obj_property name="ElementShortName">RST_i</obj_property>
+      <obj_property name="ObjectShortName">RST_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F_OUT_i" type="logic">
+      <obj_property name="ElementShortName">F_OUT_i</obj_property>
+      <obj_property name="ObjectShortName">F_OUT_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F_MED_OK_i" type="logic">
+      <obj_property name="ElementShortName">F_MED_OK_i</obj_property>
+      <obj_property name="ObjectShortName">F_MED_OK_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F_MED_i" type="array">
+      <obj_property name="ElementShortName">F_MED_i[15:0]</obj_property>
+      <obj_property name="ObjectShortName">F_MED_i[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/T" type="other">
+      <obj_property name="ElementShortName">T</obj_property>
+      <obj_property name="ObjectShortName">T</obj_property>
+   </wvobject>
+   <wvobject fp_name="/f_meter_tb/F" type="other">
+      <obj_property name="ElementShortName">F</obj_property>
+      <obj_property name="ObjectShortName">F</obj_property>
+   </wvobject>
+</wave_config>
